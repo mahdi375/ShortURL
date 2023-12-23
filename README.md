@@ -16,22 +16,23 @@ cp ./.env.example .env
 
 ### Modify env file if desired
 ---
-### Set up docker containers
+### Set up docker containers:
 ```bash
 docker compose up -d --build
 ```
-> `It takes about 10 sec to make all containers up and available due to health checking, after building docker images`
+> `It takes about 10 seconds to bring all containers up and make them available due to health checking, following the building of Docker images.`
 
 ---
 
-### ToDos
+## `ToDos`:
 - Complete APIs (show and delete)
 - Record url statistics
 - Add authentication
-- Add Tests
+- 🚨 Clean up code (standadize api responses) 
+- 🚨 Add Tests
 
 ---
 
-### Screenshots
+## `Screenshots`:
 ![](doc/1.png)
 ![](doc/2.png)
